@@ -1,3 +1,4 @@
+import CustomButton from "@/common/CustomButton";
 import Image from "next/image";
 import Link from "next/link";
 const Navbar = () => {
@@ -7,6 +8,11 @@ const Navbar = () => {
                 <Link href="/" className="flex justify-center items-center">
                     <Image src="/logo.svg" alt="car hub" width={118} height={18} className="object-contain" />
                 </Link>
+                <CustomButton
+                    title="Sign In"
+                    containerStyles="text-primary-blue rounded-full bg-white min-w-[130px]"
+                    btnType="button"
+                />
             </nav>
         </header>
     );
