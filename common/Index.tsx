@@ -1,2 +1,4 @@
 import CustomButton from "./CustomButton";
-export { CustomButton }
+import CustomFilter from "./CustomFilter";
+
+export { CustomButton, CustomFilter }
